@@ -1,0 +1,38 @@
+body {
+        background: url(kontainer.jpg);
+        height: 800px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .body {
+        width: 400px;
+        height: 400px;
+        background: white;
+        border-radius: 20px;
+        margin: auto;
+    }
+
+    .Daftar {
+        text-align: center;
+        font-family: lato;
+        font-weight: bold;
+        padding-top: 50px;
+    }
+
+    table {
+        padding-left: 25px;
+        font-size: 20px;
+        padding-top: 25px;
+    }
+
+    table td {
+        padding-bottom: 20px;
+    }
+
+    button {
+        padding: 10px 55px;
+        border-radius: 25px;
+        background: white;
+        margin: auto 110px;
+    }

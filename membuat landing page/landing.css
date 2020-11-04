@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+header{
+    background-image: url(gambar.jpg);
+    height: 750px;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px; 
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    color: blue;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: white;
+      color: black;
+}
+ul li.active a{
+    background-color: white;
+      color: black;
+}
+
+.nav{
+    max-width: 1200px;
+    margin: auto;
+}
+
+table{
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+
+table, td{
+    border : 1px solid green;
+    padding: 8px;
+    font-weight: bold;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: 20px;
+    color: #adadad;
+    background: black;
+    text-align: center;
+    padding: 5px;
+}
